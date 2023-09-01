@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURSOS</title>
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color:#EADBC8;
+    height: 3rem;
+}
+
+main{
+    background-color: #F8F0E5;
+}
+
+body{
+    background-color: #F8F0E5; 
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    gap: 1rem;
+    
+}
+
+.tituloCabecalho{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 0.8rem;
+}
+
+.formulario h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #EADBC8; 
+}
+
+.formulario input{
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #F8F0E5; 
+    text-align: center;
+    outline: none;
+    width: 11rem;
+    height: 2rem;
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1 class="tituloCabecalho">INSTITUIÇÃO CURSOS 1000 GRAU</h1>
+            <a href="./cursos.html">| Nossos Cursos |</a>
+        </div>
+    </header>
+
+    <main>
+        
+        
+
+       <form action="" method="post">
+<div class="formulario">
+    <h1>INSCREVER-SE </h1>
+
+    <input type="text" name="nome" placeholder="Preencha com seu nome">
+    <input type="text" name="curso" placeholder="interesse em qual curso?">
+    <input type="number" name="contato" placeholder="contato(xx)xxxxx">
+    <input type="password" name="senha" placeholder="Digite sua senha">
+    
+    <input type="submit" value="cadastrar">
+
+</div>
+        
+
+       </form>
+        
+
+    </main>
+</body>
+</html>
